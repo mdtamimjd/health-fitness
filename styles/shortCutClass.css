@@ -1,0 +1,51 @@
+
+.brand_name{
+    font-size: 40px;
+    text-decoration: none;
+    color: tomato;
+    font-weight: 800;
+}
+.manu_a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding:10px 30px;
+    border-radius: 30px;
+}
+.btn_a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding:15px 40px;
+    border-radius: 30px;
+}
+.manu_a:hover{
+    background-color:  tomato;
+}
+.bct{
+    background-color: tomato;
+
+}
+.h1_74{
+    font-size:74px;
+    font-weight: 800;
+    color: white;
+}
+.p_16{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.h3_30{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.mt_5{
+    margin-top: 5px;
+}
+.center{
+    text-align: center;
+}
