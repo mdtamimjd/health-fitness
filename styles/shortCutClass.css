@@ -28,6 +28,9 @@
     background-color: tomato;
 
 }
+.border{
+    border: 1px solid white;
+}
 .h1_74{
     font-size:74px;
     font-weight: 800;
@@ -43,9 +46,34 @@
     font-weight: 700;
     color: white;
 }
+.h3_20{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
 .mt_5{
     margin-top: 5px;
 }
 .center{
     text-align: center;
+}
+.h2_30{
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+.mt_20{
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.p_20{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    text-decoration: none;
+    width: 100%;
 }
