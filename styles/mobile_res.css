@@ -121,28 +121,39 @@ header{
     align-items: center;
 }
 .header_box{
-    max-width: 100%;
+    max-width: 98%;
     height:auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 nav{
-display: none;
-}
-nav>ul{
-    min-width: 400px;
-    height: 52px;
-    padding: 2px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    border-radius: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav>ul{
+    top: 100px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;    
     column-gap: 30px;
     list-style: none;
+    z-index: 5;
 }
-
+.hambar{
+    display: block;
+}
 .header_container{
     width: 95%;
     margin: auto;

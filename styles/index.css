@@ -45,7 +45,12 @@ nav>ul{
     column-gap: 30px;
     list-style: none;
 }
-
+.hambar{
+    display: none;
+}
+.close_hambar{
+    display: none;
+}
 .header_container{
     width: 100%;
     height: calc(800px - 150px);

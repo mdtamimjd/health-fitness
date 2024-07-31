@@ -123,7 +123,9 @@ nav>ul{
     column-gap: 5px;
     list-style: none;
 }
-
+.hambar{
+    display: none;
+}
 .header_container{
     width: 90%;
     margin: auto;

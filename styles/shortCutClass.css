@@ -82,3 +82,12 @@
     text-decoration: none;
     width: 100%;
 }
+.white{
+    color: white;
+    font-size: 33px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.white:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
