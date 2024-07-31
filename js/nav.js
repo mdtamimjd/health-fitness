@@ -9,6 +9,6 @@ hambar.addEventListener("click",()=>{
 })
 closeButton.addEventListener("click",()=>{
     manu.style.display ="none"
-    hambar.style.display = "flex"
+    hambar.style.display = "block"
     closeButton.style.display = "none"
 })
