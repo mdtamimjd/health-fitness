@@ -135,6 +135,11 @@ nav>ul{
     grid-template-rows: 500px 600px;
     justify-items: center;
 }
+.header_text>h1{
+    max-width:770px;
+    height: auto;
+    
+}
 .header_img{
     width: 600px;
     background-image: url('../images/Images\ 2.png');
@@ -155,6 +160,72 @@ nav>ul{
     backdrop-filter: blur(5px);
 }
 /* main */
+/* why need exercise */
+.why{
+    width: 90vw;
+    height: auto;
+    margin:100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+}
+.why_content{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(1fr,4);
+    grid-template-columns: 100%;
+}
+.why_content>div{
+    border-radius: 16px;
+    padding-left: 0;
+    background-color: rgba(128, 128, 128,50%);
+    display:grid;
+    grid-template-columns: 70% 25%;
+
+}
+.why_content>div>div{
+    padding:0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item1_img{
+    width: 100%;
+    height: 100%;
+    background: url('../whyImage/Health\ benefits\ of\ outdoor\ exercise.jpg');
+    background-position:-200px 500px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.item2_img{
+    width: 100%;
+    height: 100%;
+    background: url('../whyImage/Mindfulness-meditation-COVID-emotions.jpg');
+    background-size: cover;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.item3_img{
+    width: 100%;
+    height: 100%;
+    background: url('../whyImage/1689408311085.jpeg');
+    background-repeat: no-repeat;
+    background-position:center -175px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.item4_img{
+    width: 100%;
+    height: 100%;
+    background: url('../whyImage/ec183dae446a4ac387489bb315811f89.jpeg');
+    background-size: cover;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
 /* habits section */
 .habits{
     width: 95%;

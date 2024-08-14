@@ -176,6 +176,48 @@ nav>ul{
 }
 
 /* main */
+/* why need exercise */
+.why{
+    width: 90vw;
+    height: auto;
+    margin:100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+}
+.why_content{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    gap: 30px;
+    grid-template-rows: repeat(1fr,4);
+    grid-template-columns: 100%;
+}
+.why_content>div{
+    border-radius: 16px;
+    padding-left: 0;
+    background-color: rgba(128, 128, 128,50%);
+    display:grid;
+    grid-template-columns: 70% 25%;
+
+}
+.why_content>div>div{
+    padding:0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item2_img{
+    width: 100%;
+    height: 100%;
+    background: url('../whyImage/Mindfulness-meditation-COVID-emotions.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
 /* habits section */
 .habits{
     width: 90vw;
