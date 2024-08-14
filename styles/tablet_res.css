@@ -138,7 +138,7 @@ nav>ul{
 .header_text>h1{
     max-width:770px;
     height: auto;
-    
+    display: block;
 }
 .header_img{
     width: 600px;
